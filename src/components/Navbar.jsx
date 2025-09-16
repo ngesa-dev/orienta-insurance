@@ -27,7 +27,9 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <FaShieldAlt className="text-redbg text-2xl" />
-          <span className="text-redbg font-bold text-xl">Orienta Holdings</span>
+          <span className="text-redbg font-bold text-xl">
+            Orienta Holdings
+          </span>
         </div>
 
         {/* Desktop Links */}
@@ -73,7 +75,7 @@ const Navbar = () => {
       {toggle && (
         <div
           ref={menuRef}
-          className="md:hidden bg-whitebg shadow px-6 py-4 space-y-4"
+          className="absolute top-full left-0 w-full bg-whitebg shadow px-6 py-4 space-y-4 z-40 md:hidden"
         >
           {/* Nav Links */}
           {navLinks.map((link) => (
