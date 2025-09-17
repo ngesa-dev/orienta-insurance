@@ -5,9 +5,11 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Covers from "./pages/Covers";
-import Blog from "./pages/Blog";
+
 import Contact from "./pages/Contact";
 import Quote from "./pages/Quote";
+import Blog from "./pages/Blog";
+import BlogDetails from "./pages/BlogDetails";
 
 // insurance cover pages
 import Life from "./pages/Life";
@@ -15,6 +17,7 @@ import Health from "./pages/Health";
 import Motor from "./pages/Motor";
 import General from "./pages/General";
 import Travel from "./pages/Travel";
+import Leadership from "./pages/Leadership";
 
 const App = () => {
   return (
@@ -37,6 +40,9 @@ const App = () => {
           <Route path="/motor" element={<Motor />} />
           <Route path="/general" element={<General />} />
           <Route path="/travel" element={<Travel />} />
+          <Route path="/leadership" element={<Leadership/>} />
+        
+        <Route path="/blog/:id" element={<BlogDetails />} />
         </Routes>
       </main>
 

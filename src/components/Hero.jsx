@@ -30,11 +30,13 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right Content (Illustration placeholder) */}
+        {/* Right Content - Unsplash Image */}
         <div className="flex justify-center md:justify-end">
-          <div className="w-64 h-64 md:w-96 md:h-96 bg-whitebg rounded-2xl shadow-lg flex items-center justify-center text-redbg font-bold">
-            [Insurance Illustration<br />640×640 px]
-          </div>
+          <img
+            src="https://images.unsplash.com/photo-1556742031-c6961e8560b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+            alt="Insurance protection illustration"
+            className="w-64 h-64 md:w-96 md:h-96 object-cover rounded-2xl shadow-lg"
+          />
         </div>
       </div>
     </section>
