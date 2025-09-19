@@ -1,10 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import CoversBar from "./components/CoversBar"; // ✅ import
+import CoversBar from "./components/CoversBar"; 
+import ScrollToTop from "./components/ScrollToTop";// ✅ import
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Covers from "./pages/Covers";
+import NotFound from "./pages/NotFound";
 
 import Contact from "./pages/Contact";
 import Quote from "./pages/Quote";
@@ -26,7 +28,9 @@ const App = () => {
       <CoversBar /> {/* ✅ Sticky covers bar */}
 
       <main className="flex-grow">
+         <ScrollToTop />   {/* 👈 Always listens to route changes */}
         <Routes>
+
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/covers" element={<Covers />} />
@@ -43,6 +47,7 @@ const App = () => {
           <Route path="/leadership" element={<Leadership/>} />
         
         <Route path="/blog/:id" element={<BlogDetails />} />
+        <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Branches from "../components/Branches";
 
 const About = () => {
   return (
@@ -119,15 +121,15 @@ const About = () => {
       standards of governance, ensuring trust and transparency in everything
       we do.
     </p>
-    <a
-      href="/leadership"
-      className="inline-block bg-redbg text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-red-700 transition"
-    >
-      Meet the Team
-    </a>
+   <Link
+  to="/leadership"
+  className="inline-block bg-redbg text-white font-medium px-6 py-3 rounded-lg shadow-md hover:bg-red-700 transition"
+>
+  Meet the Team
+</Link>
   </div>
 </div>
-
+<Branches/>
     </section>
   );
 };

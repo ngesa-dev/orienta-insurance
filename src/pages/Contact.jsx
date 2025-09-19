@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import Branches from "../components/Branches";
 
 const Contact = () => {
   return (
@@ -100,6 +101,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Branches/>
     </div>
   );
 };
