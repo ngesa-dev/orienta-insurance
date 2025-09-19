@@ -9,7 +9,7 @@ const CtaBanner = () => {
         {/* Left - Image */}
         <div className="flex justify-center md:justify-start">
           <img
-            src="https://images.unsplash.com/photo-1556742031-c6961e8560b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+            src="https://plus.unsplash.com/premium_photo-1661771719168-449af6de4e8f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdXJhbmNlJTIwYnVzaW5lc3N8ZW58MHx8MHx8fDA%3D"
             alt="Family Insurance"
             className="rounded-2xl shadow-lg w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm max-h-72 object-cover"
           />

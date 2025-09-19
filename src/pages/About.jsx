@@ -10,7 +10,7 @@ const About = () => {
         {/* Left - Image */}
         <div className="flex justify-center md:justify-start">
           <img
-            src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80"
+            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW5zdXJhbmNlJTIwY29tcGFueXxlbnwwfHwwfHx8MA%3D%3D"
             alt="About Orienta Holdings"
             className="rounded-2xl shadow-lg w-full max-w-lg object-cover 
                        h-64 sm:h-72 md:h-[420px] lg:h-[500px]"
@@ -103,7 +103,7 @@ const About = () => {
   {/* Left - Leader Image */}
   <div className="flex justify-center md:justify-start">
     <img
-      src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=1200&auto=format&fit=crop"
+      src="https://plus.unsplash.com/premium_photo-1661484754465-a186692d78a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGVhZGVyc2hpcCUyMHRlYW18ZW58MHx8MHx8fDA%3D"
       alt="Company Leadership"
       className="rounded-2xl shadow-lg w-full max-w-lg object-cover h-72 sm:h-80 md:h-[420px]"
     />

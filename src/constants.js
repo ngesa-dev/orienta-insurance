@@ -6,7 +6,7 @@ export const insuranceCovers = [
     path: "/life",
     icon: FaUserShield,
     image:
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+      "https://plus.unsplash.com/premium_photo-1681910241563-a3bd7a4c2ec9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZhbWlseXxlbnwwfHwwfHx8MA%3D%3D",
     description:
       "Secure your family's financial future with tailored life protection.",
   },
@@ -15,7 +15,7 @@ export const insuranceCovers = [
     path: "/health",
     icon: FaHeartbeat,
     image:
-      "https://images.unsplash.com/photo-1588776814546-ec7b91e3b6d7?auto=format&fit=crop&w=800&q=80",
+      "https://plus.unsplash.com/premium_photo-1682141097519-366cca5659d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aGVhbHRoY2FyZSUyMGFuZCUyMG1lZGljaW5lfGVufDB8fDB8fHww",
     description:
       "Comprehensive medical coverage for peace of mind and wellbeing.",
   },
@@ -42,7 +42,7 @@ export const insuranceCovers = [
     path: "/travel",
     icon: FaGlobe,
     image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "https://plus.unsplash.com/premium_photo-1681487906725-ecd65970ac66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
     description:
       "Stay covered during trips with medical, cancellation, and emergency support.",
   },

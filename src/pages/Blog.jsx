@@ -32,7 +32,7 @@ const blogs = [
     excerpt:
       "Understand how health insurance works and why it’s essential for managing medical expenses...",
     image:
-      "https://images.unsplash.com/photo-1588776814546-4f52dfce2f6b?auto=format&fit=crop&w=800&q=80", // hospital/health
+      "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhbHRofGVufDB8fDB8fHww", // hospital/health
   },
   {
     id: 5,
@@ -64,7 +64,7 @@ const blogs = [
     excerpt:
       "Learn why an emergency fund is critical and how to build one step by step...",
     image:
-      "https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?auto=format&fit=crop&w=800&q=80", // savings jar
+      "https://images.unsplash.com/photo-1553729459-efe14ef6055d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // savings jar
   },
   {
     id: 9,
@@ -72,7 +72,7 @@ const blogs = [
     excerpt:
       "Safeguard your business against risks with the right commercial insurance policies...",
     image:
-      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80", // business/office
+      "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // business/office
   },
 ];
 
